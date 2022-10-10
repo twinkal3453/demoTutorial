@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        /* padding: 10px; */
+      }
+      .position__div {
+        /* zero index */
+        width: 100%;
+        border: 1px solid grey;
+        height: 200px;
+      }
+      h2 {
+        margin: 0;
+      }
+
+      .pos__reletive {
+        margin-top: 1rem;
+        border: 1px solid grey;
+        position: relative;
+        top: 0;
+      }
+
+      .position__container {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .pos__reletive h1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .position__container1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="position__div">
+      <h2>Hello</h2>
+    </div>
+    <div class="pos__reletive">
+      <!-- index 500  -->
+      <h1 style="margin: 0">Sudhanshu Kumar</h1>
+      <div class="position__container">
+        <h2 style="color: rgb(0, 238, 255)">twinkal</h2>
+      </div>
+      <!-- 1000/501  -->
+    </div>
+    <div class="pos__reletive1">
+      <div class="position__container1">
+        <h2 style="color: red">prakash</h2>
+      </div>
+    </div>
+  </body>
+</html>
